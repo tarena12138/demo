@@ -1,13 +1,13 @@
 package demo;
+import java.util.Scanner;
 
 public class Client {
 
 	public static void main(String[] args) {
-		// 第01步：创建scanner对象
+		Scanner scanner = new Scanner(System.in);
+		String name = scanner.nextLine();
 		
-		// 第02步：接收用户的输入
-		
-		// 第03步：输出欢迎信息，比如："你好，张三"
+		// 第01步：使用if分支结构判断用户输入是否为空
         
 	}
 
